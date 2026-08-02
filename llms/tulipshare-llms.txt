@@ -1,0 +1,12 @@
+# Tulipshare
+
+> Tulipshare is a London-based impact investor and shareholder advocacy group that uses activist investing — shareholder proposals, board and ESG-team engagement, and other shareholder rights — to push for ethical and sustainable change at the world's largest companies, on behalf of foundations, asset managers, universities, and pension funds. Backed by Speedinvest. Its website (tulipshare.com) went offline in 2026 and the company publishes no public API surface.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/tulipshare/refs/heads/main/apis.yml): Machine-readable company profile in the API Evangelist network
+- [Website (offline, archived)](https://web.archive.org/web/20250905082250/https://tulipshare.com/): Last archived snapshot of tulipshare.com (September 2025)
+
+## APIs
+
+- None published. Tulipshare exposes no public developer portal, API documentation, OpenAPI specification, SDK packages, or GitHub organization (verified 2026-07-21).

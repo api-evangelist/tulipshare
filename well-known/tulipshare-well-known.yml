@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.tulipshare.com
+note: tulipshare.com apex fails TLS (SNI unrecognized); www.tulipshare.com serves a
+  Framer "Site Not Found" page (site offline). No well-known discovery documents
+  are published. Probed 2026-07-21; absence recorded as valid data.
+host: https://www.tulipshare.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404

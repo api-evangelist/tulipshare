@@ -1,7 +1,24 @@
 aid: tulipshare
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tulipshare.png
 name: Tulipshare
-description: Tulipshare is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tulipshare is a London-based impact investor and shareholder advocacy
+  group that uses activist investing to push for ethical and sustainable change at
+  the world's largest companies. It leverages shareholder proposals, direct board
+  and ESG-team engagement, and other shareholder rights on behalf of foundations,
+  asset managers, universities, and pension funds. Backed by Speedinvest. Its
+  consumer website (tulipshare.com) went offline in 2026 and the company publishes
+  no public API surface.
 url: https://raw.githubusercontent.com/api-evangelist/tulipshare/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Investing
+- Impact Investing
+- Activist Investing
+- Shareholder Advocacy
+- ESG
+- Fintech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tulipshare-domain-security.yml
+- name: Website
+  type: Website
+  url: https://www.tulipshare.com
+- name: Well-Known Discovery Probe
+  type: WellKnown
+  url: well-known/tulipshare-well-known.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/tulipshare-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
